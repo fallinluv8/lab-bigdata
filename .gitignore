@@ -1,0 +1,15 @@
+# --- Loại bỏ thư mục nặng ---
+/data/
+/src/results/
+
+# --- Loại bỏ thư mục rác hệ thống ---
+node_modules/
+.next/
+.DS_Store
+.env
+
+# --- Loại bỏ file log ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*

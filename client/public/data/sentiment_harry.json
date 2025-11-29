@@ -1,0 +1,102 @@
+{
+  "lab_name": "Lab 2: Sentiment Analysis",
+  "description": "Ph\u00e2n t\u00edch c\u1ea3m x\u00fac nh\u00e2n v\u1eadt v\u00e0 di\u1ec5n bi\u1ebfn t\u00e2m tr\u1ea1ng Harry Potter",
+  "ranking": [
+    {
+      "character": "dumbledore",
+      "avg_score": 0.08470941131874438,
+      "count": 155
+    },
+    {
+      "character": "hermione",
+      "avg_score": 0.044293074156848196,
+      "count": 263
+    },
+    {
+      "character": "ron",
+      "avg_score": 0.03315358698748834,
+      "count": 543
+    },
+    {
+      "character": "harry",
+      "avg_score": 0.03265794193766873,
+      "count": 1241
+    },
+    {
+      "character": "malfoy",
+      "avg_score": 0.009960826869138469,
+      "count": 118
+    },
+    {
+      "character": "snape",
+      "avg_score": -0.02306217743898742,
+      "count": 160
+    }
+  ],
+  "trend": [
+    {
+      "chapter_number": 1,
+      "avg_sentiment": 0.17334004626091984
+    },
+    {
+      "chapter_number": 2,
+      "avg_sentiment": 0.033999468790183604
+    },
+    {
+      "chapter_number": 3,
+      "avg_sentiment": -0.036565609654644504
+    },
+    {
+      "chapter_number": 4,
+      "avg_sentiment": 0.05785700184819491
+    },
+    {
+      "chapter_number": 5,
+      "avg_sentiment": 0.08537092035198036
+    },
+    {
+      "chapter_number": 6,
+      "avg_sentiment": 0.02480457746633538
+    },
+    {
+      "chapter_number": 7,
+      "avg_sentiment": 0.014329241189573492
+    },
+    {
+      "chapter_number": 8,
+      "avg_sentiment": 0.005667324738292876
+    },
+    {
+      "chapter_number": 9,
+      "avg_sentiment": 0.03593098539859056
+    },
+    {
+      "chapter_number": 10,
+      "avg_sentiment": 0.023648904104317938
+    },
+    {
+      "chapter_number": 11,
+      "avg_sentiment": 0.07078150493563504
+    },
+    {
+      "chapter_number": 12,
+      "avg_sentiment": 0.03286590799689293
+    },
+    {
+      "chapter_number": 13,
+      "avg_sentiment": 0.001181069802906778
+    },
+    {
+      "chapter_number": 14,
+      "avg_sentiment": -0.019051250763410747
+    },
+    {
+      "chapter_number": 15,
+      "avg_sentiment": 0.05232936544787316
+    },
+    {
+      "chapter_number": 16,
+      "avg_sentiment": 0.022583668444598658
+    }
+  ]
+}

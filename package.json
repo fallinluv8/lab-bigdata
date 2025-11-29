@@ -1,0 +1,17 @@
+{
+  "name": "big-data-project",
+  "version": "1.0.0",
+  "description": "Spark Hadoop Project with Next.js",
+  "scripts": {
+    "dev": "cd client && pnpm dev",
+    "spark:word-count": "node spark-runner.js word_count.py",
+    "spark:interaction": "node spark-runner.js character_analysis.py",
+    "spark:sentiment": "node spark-runner.js sentiment_analysis.py",
+    "spark:reddit-posts": "node spark-runner.js reddit_analysis.py",
+    "spark:reddit-time": "node spark-runner.js reddit_sentiment.py",
+    "spark:all": "node spark-runner.js all"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,96 @@
+{
+  "lab_name": "Lab 2: Character Interactions",
+  "description": "M\u1ea1ng l\u01b0\u1edbi c\u00e1c nh\u00e2n v\u1eadt xu\u1ea5t hi\u1ec7n c\u00f9ng nhau trong m\u1ed9t c\u00e2u",
+  "data": [
+    {
+      "character1": "Harry",
+      "character2": "Ron",
+      "name": "Harry & Ron",
+      "count": 192
+    },
+    {
+      "character1": "Harry",
+      "character2": "Hermione",
+      "name": "Harry & Hermione",
+      "count": 92
+    },
+    {
+      "character1": "Hermione",
+      "character2": "Ron",
+      "name": "Hermione & Ron",
+      "count": 90
+    },
+    {
+      "character1": "Harry",
+      "character2": "Snape",
+      "name": "Harry & Snape",
+      "count": 45
+    },
+    {
+      "character1": "Harry",
+      "character2": "Malfoy",
+      "name": "Harry & Malfoy",
+      "count": 40
+    },
+    {
+      "character1": "Dumbledore",
+      "character2": "Harry",
+      "name": "Dumbledore & Harry",
+      "count": 35
+    },
+    {
+      "character1": "Ron",
+      "character2": "Snape",
+      "name": "Ron & Snape",
+      "count": 22
+    },
+    {
+      "character1": "Malfoy",
+      "character2": "Ron",
+      "name": "Malfoy & Ron",
+      "count": 21
+    },
+    {
+      "character1": "Hermione",
+      "character2": "Snape",
+      "name": "Hermione & Snape",
+      "count": 14
+    },
+    {
+      "character1": "Dumbledore",
+      "character2": "Ron",
+      "name": "Dumbledore & Ron",
+      "count": 11
+    },
+    {
+      "character1": "Malfoy",
+      "character2": "Snape",
+      "name": "Malfoy & Snape",
+      "count": 8
+    },
+    {
+      "character1": "Hermione",
+      "character2": "Malfoy",
+      "name": "Hermione & Malfoy",
+      "count": 7
+    },
+    {
+      "character1": "Dumbledore",
+      "character2": "Hermione",
+      "name": "Dumbledore & Hermione",
+      "count": 5
+    },
+    {
+      "character1": "Dumbledore",
+      "character2": "Snape",
+      "name": "Dumbledore & Snape",
+      "count": 3
+    },
+    {
+      "character1": "Dumbledore",
+      "character2": "Malfoy",
+      "name": "Dumbledore & Malfoy",
+      "count": 1
+    }
+  ]
+}

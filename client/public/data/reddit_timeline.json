@@ -1,0 +1,606 @@
+{
+  "lab_name": "Lab 4: Reddit Timeline Analysis",
+  "description": "Bi\u1ec3u \u0111\u1ed3 ph\u00e1t tri\u1ec3n c\u1ee7a c\u1ed9ng \u0111\u1ed3ng v\u00e0 di\u1ec5n bi\u1ebfn c\u1ea3m x\u00fac theo th\u1eddi gian",
+  "data": [
+    {
+      "year_month": "2013-08",
+      "post_count": 1,
+      "comment_sample_count": 4,
+      "avg_sentiment": 0.09187499899417162
+    },
+    {
+      "year_month": "2013-09",
+      "post_count": 0,
+      "comment_sample_count": 1,
+      "avg_sentiment": 0.48500001430511475
+    },
+    {
+      "year_month": "2013-10",
+      "post_count": 0,
+      "comment_sample_count": 2,
+      "avg_sentiment": -0.09375
+    },
+    {
+      "year_month": "2013-11",
+      "post_count": 1,
+      "comment_sample_count": 0,
+      "avg_sentiment": 0.0
+    },
+    {
+      "year_month": "2013-12",
+      "post_count": 1,
+      "comment_sample_count": 0,
+      "avg_sentiment": 0.0
+    },
+    {
+      "year_month": "2014-01",
+      "post_count": 1,
+      "comment_sample_count": 0,
+      "avg_sentiment": 0.0
+    },
+    {
+      "year_month": "2014-02",
+      "post_count": 0,
+      "comment_sample_count": 2,
+      "avg_sentiment": 0.09805555222555995
+    },
+    {
+      "year_month": "2014-03",
+      "post_count": 0,
+      "comment_sample_count": 2,
+      "avg_sentiment": 0.0972222238779068
+    },
+    {
+      "year_month": "2014-04",
+      "post_count": 1,
+      "comment_sample_count": 0,
+      "avg_sentiment": 0.0
+    },
+    {
+      "year_month": "2014-05",
+      "post_count": 2,
+      "comment_sample_count": 0,
+      "avg_sentiment": 0.0
+    },
+    {
+      "year_month": "2014-06",
+      "post_count": 0,
+      "comment_sample_count": 2,
+      "avg_sentiment": -0.1458333283662796
+    },
+    {
+      "year_month": "2014-07",
+      "post_count": 0,
+      "comment_sample_count": 1,
+      "avg_sentiment": 0.0
+    },
+    {
+      "year_month": "2014-08",
+      "post_count": 0,
+      "comment_sample_count": 1,
+      "avg_sentiment": -0.07500000298023224
+    },
+    {
+      "year_month": "2014-11",
+      "post_count": 0,
+      "comment_sample_count": 2,
+      "avg_sentiment": 0.0
+    },
+    {
+      "year_month": "2014-12",
+      "post_count": 1,
+      "comment_sample_count": 3,
+      "avg_sentiment": 0.022751322637001675
+    },
+    {
+      "year_month": "2015-01",
+      "post_count": 1,
+      "comment_sample_count": 3,
+      "avg_sentiment": 0.07291666666666667
+    },
+    {
+      "year_month": "2015-02",
+      "post_count": 2,
+      "comment_sample_count": 3,
+      "avg_sentiment": 0.15406566113233566
+    },
+    {
+      "year_month": "2015-03",
+      "post_count": 1,
+      "comment_sample_count": 6,
+      "avg_sentiment": 0.22106782346963882
+    },
+    {
+      "year_month": "2015-04",
+      "post_count": 2,
+      "comment_sample_count": 5,
+      "avg_sentiment": 0.21919362619519234
+    },
+    {
+      "year_month": "2015-05",
+      "post_count": 1,
+      "comment_sample_count": 6,
+      "avg_sentiment": 0.3033369366700451
+    },
+    {
+      "year_month": "2015-06",
+      "post_count": 2,
+      "comment_sample_count": 6,
+      "avg_sentiment": 0.22837301840384802
+    },
+    {
+      "year_month": "2015-07",
+      "post_count": 1,
+      "comment_sample_count": 6,
+      "avg_sentiment": 0.024480649270117283
+    },
+    {
+      "year_month": "2015-08",
+      "post_count": 3,
+      "comment_sample_count": 6,
+      "avg_sentiment": 0.21902006367842355
+    },
+    {
+      "year_month": "2015-09",
+      "post_count": 3,
+      "comment_sample_count": 3,
+      "avg_sentiment": -0.1317460366214315
+    },
+    {
+      "year_month": "2015-10",
+      "post_count": 0,
+      "comment_sample_count": 1,
+      "avg_sentiment": 0.0
+    },
+    {
+      "year_month": "2015-11",
+      "post_count": 0,
+      "comment_sample_count": 1,
+      "avg_sentiment": 0.1457863450050354
+    },
+    {
+      "year_month": "2015-12",
+      "post_count": 0,
+      "comment_sample_count": 1,
+      "avg_sentiment": -0.75
+    },
+    {
+      "year_month": "2016-01",
+      "post_count": 2,
+      "comment_sample_count": 3,
+      "avg_sentiment": 0.09079861392577489
+    },
+    {
+      "year_month": "2016-02",
+      "post_count": 0,
+      "comment_sample_count": 4,
+      "avg_sentiment": -0.028968255035579205
+    },
+    {
+      "year_month": "2016-03",
+      "post_count": 1,
+      "comment_sample_count": 5,
+      "avg_sentiment": 0.027735508978366852
+    },
+    {
+      "year_month": "2016-04",
+      "post_count": 2,
+      "comment_sample_count": 4,
+      "avg_sentiment": 0.13070690631866455
+    },
+    {
+      "year_month": "2016-05",
+      "post_count": 0,
+      "comment_sample_count": 2,
+      "avg_sentiment": -0.25
+    },
+    {
+      "year_month": "2016-06",
+      "post_count": 2,
+      "comment_sample_count": 6,
+      "avg_sentiment": -0.10047619168957074
+    },
+    {
+      "year_month": "2016-07",
+      "post_count": 0,
+      "comment_sample_count": 2,
+      "avg_sentiment": -0.07500000298023224
+    },
+    {
+      "year_month": "2016-08",
+      "post_count": 2,
+      "comment_sample_count": 5,
+      "avg_sentiment": 0.20000000149011612
+    },
+    {
+      "year_month": "2016-09",
+      "post_count": 3,
+      "comment_sample_count": 9,
+      "avg_sentiment": 0.20642373545302284
+    },
+    {
+      "year_month": "2016-10",
+      "post_count": 3,
+      "comment_sample_count": 4,
+      "avg_sentiment": 0.16800821013748646
+    },
+    {
+      "year_month": "2016-11",
+      "post_count": 2,
+      "comment_sample_count": 3,
+      "avg_sentiment": 0.012857139110565186
+    },
+    {
+      "year_month": "2016-12",
+      "post_count": 2,
+      "comment_sample_count": 12,
+      "avg_sentiment": 0.15740158005307117
+    },
+    {
+      "year_month": "2017-01",
+      "post_count": 2,
+      "comment_sample_count": 2,
+      "avg_sentiment": 0.009615384973585606
+    },
+    {
+      "year_month": "2017-02",
+      "post_count": 2,
+      "comment_sample_count": 1,
+      "avg_sentiment": 0.06428571790456772
+    },
+    {
+      "year_month": "2017-04",
+      "post_count": 0,
+      "comment_sample_count": 2,
+      "avg_sentiment": 0.15291667100973427
+    },
+    {
+      "year_month": "2017-05",
+      "post_count": 1,
+      "comment_sample_count": 0,
+      "avg_sentiment": 0.0
+    },
+    {
+      "year_month": "2017-06",
+      "post_count": 2,
+      "comment_sample_count": 3,
+      "avg_sentiment": 0.1631661852200826
+    },
+    {
+      "year_month": "2017-07",
+      "post_count": 0,
+      "comment_sample_count": 2,
+      "avg_sentiment": -0.25
+    },
+    {
+      "year_month": "2017-08",
+      "post_count": 1,
+      "comment_sample_count": 3,
+      "avg_sentiment": -0.07698412239551544
+    },
+    {
+      "year_month": "2017-09",
+      "post_count": 0,
+      "comment_sample_count": 2,
+      "avg_sentiment": 0.313541654497385
+    },
+    {
+      "year_month": "2017-10",
+      "post_count": 2,
+      "comment_sample_count": 9,
+      "avg_sentiment": 0.25870817216734093
+    },
+    {
+      "year_month": "2017-11",
+      "post_count": 1,
+      "comment_sample_count": 3,
+      "avg_sentiment": 0.13624789814154306
+    },
+    {
+      "year_month": "2017-12",
+      "post_count": 1,
+      "comment_sample_count": 10,
+      "avg_sentiment": 0.2773484863340855
+    },
+    {
+      "year_month": "2018-01",
+      "post_count": 5,
+      "comment_sample_count": 8,
+      "avg_sentiment": 0.05213010055013001
+    },
+    {
+      "year_month": "2018-02",
+      "post_count": 0,
+      "comment_sample_count": 4,
+      "avg_sentiment": 0.037843408063054085
+    },
+    {
+      "year_month": "2018-03",
+      "post_count": 0,
+      "comment_sample_count": 5,
+      "avg_sentiment": 0.0645238071680069
+    },
+    {
+      "year_month": "2018-04",
+      "post_count": 4,
+      "comment_sample_count": 11,
+      "avg_sentiment": 0.02100707624446262
+    },
+    {
+      "year_month": "2018-05",
+      "post_count": 3,
+      "comment_sample_count": 15,
+      "avg_sentiment": 0.06197330504655838
+    },
+    {
+      "year_month": "2018-06",
+      "post_count": 2,
+      "comment_sample_count": 18,
+      "avg_sentiment": 0.20842026888082424
+    },
+    {
+      "year_month": "2018-07",
+      "post_count": 3,
+      "comment_sample_count": 18,
+      "avg_sentiment": 0.23526234842009014
+    },
+    {
+      "year_month": "2018-08",
+      "post_count": 14,
+      "comment_sample_count": 50,
+      "avg_sentiment": 0.14552788326516747
+    },
+    {
+      "year_month": "2018-09",
+      "post_count": 11,
+      "comment_sample_count": 61,
+      "avg_sentiment": 0.13340599652471358
+    },
+    {
+      "year_month": "2018-10",
+      "post_count": 43,
+      "comment_sample_count": 213,
+      "avg_sentiment": 0.07643370277974143
+    },
+    {
+      "year_month": "2018-11",
+      "post_count": 47,
+      "comment_sample_count": 168,
+      "avg_sentiment": 0.10735717924087242
+    },
+    {
+      "year_month": "2018-12",
+      "post_count": 49,
+      "comment_sample_count": 187,
+      "avg_sentiment": 0.04902526082590541
+    },
+    {
+      "year_month": "2019-01",
+      "post_count": 129,
+      "comment_sample_count": 494,
+      "avg_sentiment": 0.05025870291830082
+    },
+    {
+      "year_month": "2019-02",
+      "post_count": 149,
+      "comment_sample_count": 495,
+      "avg_sentiment": 0.10018226739790553
+    },
+    {
+      "year_month": "2019-03",
+      "post_count": 154,
+      "comment_sample_count": 680,
+      "avg_sentiment": 0.06733380400418194
+    },
+    {
+      "year_month": "2019-04",
+      "post_count": 285,
+      "comment_sample_count": 873,
+      "avg_sentiment": 0.06284853677627528
+    },
+    {
+      "year_month": "2019-05",
+      "post_count": 323,
+      "comment_sample_count": 981,
+      "avg_sentiment": 0.06490347544279587
+    },
+    {
+      "year_month": "2019-06",
+      "post_count": 347,
+      "comment_sample_count": 1035,
+      "avg_sentiment": 0.07094994707394095
+    },
+    {
+      "year_month": "2019-07",
+      "post_count": 373,
+      "comment_sample_count": 1264,
+      "avg_sentiment": 0.055070808254928535
+    },
+    {
+      "year_month": "2019-08",
+      "post_count": 343,
+      "comment_sample_count": 1313,
+      "avg_sentiment": 0.0781995550006194
+    },
+    {
+      "year_month": "2019-09",
+      "post_count": 362,
+      "comment_sample_count": 1390,
+      "avg_sentiment": 0.05762949177053951
+    },
+    {
+      "year_month": "2019-10",
+      "post_count": 443,
+      "comment_sample_count": 1943,
+      "avg_sentiment": 0.0723386058619565
+    },
+    {
+      "year_month": "2019-11",
+      "post_count": 394,
+      "comment_sample_count": 1908,
+      "avg_sentiment": 0.06579640721838491
+    },
+    {
+      "year_month": "2019-12",
+      "post_count": 446,
+      "comment_sample_count": 2143,
+      "avg_sentiment": 0.062420595650508136
+    },
+    {
+      "year_month": "2020-01",
+      "post_count": 525,
+      "comment_sample_count": 2491,
+      "avg_sentiment": 0.0690069093512609
+    },
+    {
+      "year_month": "2020-02",
+      "post_count": 494,
+      "comment_sample_count": 2183,
+      "avg_sentiment": 0.06283168294163595
+    },
+    {
+      "year_month": "2020-03",
+      "post_count": 512,
+      "comment_sample_count": 2308,
+      "avg_sentiment": 0.0642258196621413
+    },
+    {
+      "year_month": "2020-04",
+      "post_count": 343,
+      "comment_sample_count": 1843,
+      "avg_sentiment": 0.06189112777165296
+    },
+    {
+      "year_month": "2020-05",
+      "post_count": 450,
+      "comment_sample_count": 2217,
+      "avg_sentiment": 0.06806170034657641
+    },
+    {
+      "year_month": "2020-06",
+      "post_count": 547,
+      "comment_sample_count": 2342,
+      "avg_sentiment": 0.07214598565398282
+    },
+    {
+      "year_month": "2020-07",
+      "post_count": 571,
+      "comment_sample_count": 2792,
+      "avg_sentiment": 0.07395906996867013
+    },
+    {
+      "year_month": "2020-08",
+      "post_count": 733,
+      "comment_sample_count": 3245,
+      "avg_sentiment": 0.06181403744142633
+    },
+    {
+      "year_month": "2020-09",
+      "post_count": 678,
+      "comment_sample_count": 3354,
+      "avg_sentiment": 0.06623741086869972
+    },
+    {
+      "year_month": "2020-10",
+      "post_count": 571,
+      "comment_sample_count": 3486,
+      "avg_sentiment": 0.07029039050467673
+    },
+    {
+      "year_month": "2020-11",
+      "post_count": 587,
+      "comment_sample_count": 3137,
+      "avg_sentiment": 0.06873275044232481
+    },
+    {
+      "year_month": "2020-12",
+      "post_count": 635,
+      "comment_sample_count": 3867,
+      "avg_sentiment": 0.06416567467647814
+    },
+    {
+      "year_month": "2021-01",
+      "post_count": 743,
+      "comment_sample_count": 4254,
+      "avg_sentiment": 0.06437295548806721
+    },
+    {
+      "year_month": "2021-02",
+      "post_count": 744,
+      "comment_sample_count": 3957,
+      "avg_sentiment": 0.06897407979548513
+    },
+    {
+      "year_month": "2021-03",
+      "post_count": 769,
+      "comment_sample_count": 5172,
+      "avg_sentiment": 0.06439904943776394
+    },
+    {
+      "year_month": "2021-04",
+      "post_count": 917,
+      "comment_sample_count": 6414,
+      "avg_sentiment": 0.07020085360702494
+    },
+    {
+      "year_month": "2021-05",
+      "post_count": 1078,
+      "comment_sample_count": 9292,
+      "avg_sentiment": 0.06809897460623565
+    },
+    {
+      "year_month": "2021-06",
+      "post_count": 1076,
+      "comment_sample_count": 9517,
+      "avg_sentiment": 0.060512003805253
+    },
+    {
+      "year_month": "2021-07",
+      "post_count": 1174,
+      "comment_sample_count": 12531,
+      "avg_sentiment": 0.06608898701412835
+    },
+    {
+      "year_month": "2021-08",
+      "post_count": 1313,
+      "comment_sample_count": 13721,
+      "avg_sentiment": 0.06551349953568143
+    },
+    {
+      "year_month": "2021-09",
+      "post_count": 2194,
+      "comment_sample_count": 23542,
+      "avg_sentiment": 0.06458145172728226
+    },
+    {
+      "year_month": "2021-10",
+      "post_count": 7711,
+      "comment_sample_count": 85195,
+      "avg_sentiment": 0.062133118673040395
+    },
+    {
+      "year_month": "2021-11",
+      "post_count": 15469,
+      "comment_sample_count": 136127,
+      "avg_sentiment": 0.061321453096097815
+    },
+    {
+      "year_month": "2021-12",
+      "post_count": 18379,
+      "comment_sample_count": 166673,
+      "avg_sentiment": 0.059081424896689924
+    },
+    {
+      "year_month": "2022-01",
+      "post_count": 16788,
+      "comment_sample_count": 165792,
+      "avg_sentiment": 0.062088204634562126
+    },
+    {
+      "year_month": "2022-02",
+      "post_count": 4556,
+      "comment_sample_count": 64447,
+      "avg_sentiment": 0.05959507565915979
+    }
+  ]
+}

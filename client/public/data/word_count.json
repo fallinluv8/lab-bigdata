@@ -1,0 +1,112 @@
+{
+  "lab_name": "Lab 2: Word Count",
+  "description": "Th\u1ed1ng k\u00ea t\u1eeb v\u1ef1ng v\u00e0 nh\u00e2n v\u1eadt trong Harry Potter",
+  "top_words": [
+    {
+      "word": "the",
+      "count": 3584
+    },
+    {
+      "word": "and",
+      "count": 1857
+    },
+    {
+      "word": "to",
+      "count": 1835
+    },
+    {
+      "word": "a",
+      "count": 1668
+    },
+    {
+      "word": "he",
+      "count": 1487
+    },
+    {
+      "word": "of",
+      "count": 1245
+    },
+    {
+      "word": "was",
+      "count": 1155
+    },
+    {
+      "word": "his",
+      "count": 932
+    },
+    {
+      "word": "in",
+      "count": 925
+    },
+    {
+      "word": "harry",
+      "count": 903
+    },
+    {
+      "word": "it",
+      "count": 742
+    },
+    {
+      "word": "had",
+      "count": 695
+    },
+    {
+      "word": "--",
+      "count": 687
+    },
+    {
+      "word": "said",
+      "count": 660
+    },
+    {
+      "word": "you",
+      "count": 622
+    },
+    {
+      "word": "at",
+      "count": 622
+    },
+    {
+      "word": "they",
+      "count": 578
+    },
+    {
+      "word": "on",
+      "count": 561
+    },
+    {
+      "word": "that",
+      "count": 528
+    },
+    {
+      "word": "as",
+      "count": 522
+    }
+  ],
+  "characters": [
+    {
+      "word": "harry",
+      "count": 903
+    },
+    {
+      "word": "ron",
+      "count": 249
+    },
+    {
+      "word": "hermione",
+      "count": 175
+    },
+    {
+      "word": "snape",
+      "count": 106
+    },
+    {
+      "word": "dumbledore",
+      "count": 84
+    },
+    {
+      "word": "malfoy",
+      "count": 63
+    }
+  ]
+}
