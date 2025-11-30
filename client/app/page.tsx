@@ -100,7 +100,7 @@ export default function Home() {
           <p className='text-slate-400 text-sm'>
             Developed by{' '}
             <span className='font-semibold text-slate-600'>
-              Your Name / Group Name
+              NGUYEN NHU QUANG TUNG
             </span>{' '}
             • Powered by Next.js & Recharts
           </p>
