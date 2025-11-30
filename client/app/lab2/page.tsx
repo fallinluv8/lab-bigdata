@@ -9,7 +9,6 @@ import RedditCharts from './_components/RedditCharts';
 export default function Lab2Page() {
   const [activeTab, setActiveTab] = useState<'harry' | 'reddit'>('harry');
 
-  // Dữ liệu
   const [wordData, setWordData] = useState<any>(null);
   const [interactionData, setInteractionData] = useState<any>(null);
   const [sentimentData, setSentimentData] = useState<any>(null);
@@ -17,7 +16,6 @@ export default function Lab2Page() {
   const [redditTimeline, setRedditTimeline] = useState<any>(null);
 
   useEffect(() => {
-    // Load dữ liệu Harry Potter
     fetch('/data/word_count.json')
       .then((res) => res.json())
       .then((data) => setWordData(data));
@@ -28,7 +26,6 @@ export default function Lab2Page() {
       .then((res) => res.json())
       .then((data) => setSentimentData(data));
 
-    // Load dữ liệu Reddit
     fetch('/data/reddit_top_posts.json')
       .then((res) => res.json())
       .then((data) => setRedditTopPosts(data));
@@ -46,7 +43,7 @@ export default function Lab2Page() {
   )
     return (
       <div className='min-h-screen flex items-center justify-center bg-gray-50'>
-        <div className='text-xl text-blue-600 animate-pulse font-semibold'>
+        <div className='text-3xl text-blue-600 animate-pulse font-bold'>
           Đang tải dữ liệu báo cáo...
         </div>
       </div>
@@ -55,57 +52,60 @@ export default function Lab2Page() {
   return (
     <main className='min-h-screen bg-gray-50 p-8 font-sans text-gray-900'>
       {/* Header */}
-      <div className='max-w-7xl mx-auto mb-8 flex items-center justify-between'>
+      <div className='max-w-7xl mx-auto mb-12 flex items-center justify-between'>
         <div>
-          <h1 className='text-3xl font-bold text-slate-800 flex items-center gap-2'>
-            <Database className='w-8 h-8 text-blue-600' /> Báo cáo Lab 2
+          <h1 className='text-4xl font-extrabold text-slate-800 flex items-center gap-3'>
+            <Database className='w-10 h-10 text-blue-600' /> Báo cáo Lab 2
           </h1>
-          <p className='text-gray-600 mt-2'>
+          <p className='text-xl text-gray-600 mt-2'>
             Tổng hợp các bài tập phân tích Big Data với Spark
           </p>
         </div>
         <Link
           href='/'
-          className='px-4 py-2 bg-white border border-gray-300 rounded hover:bg-gray-100 transition flex items-center gap-2'
+          className='px-6 py-3 text-lg bg-white border-2 border-gray-300 rounded-xl hover:bg-gray-100 transition flex items-center gap-2 font-semibold'
         >
-          <ArrowLeft className='w-4 h-4' /> Quay lại Dashboard
+          <ArrowLeft className='w-6 h-6' /> Quay lại Dashboard
         </Link>
       </div>
 
-      {/* Tabs */}
-      <div className='max-w-7xl mx-auto mb-10 flex gap-4 border-b border-gray-200 pb-1'>
+      <div className='max-w-7xl mx-auto mb-16 flex gap-8 border-b-4 border-gray-200 pb-1 justify-center'>
         <button
           onClick={() => setActiveTab('harry')}
-          className={`flex items-center gap-2 px-6 py-3 font-semibold rounded-t-lg transition-all ${
+          className={`flex items-center gap-4 px-12 py-8 text-3xl font-bold rounded-t-3xl transition-all duration-300 ${
             activeTab === 'harry'
-              ? 'bg-blue-600 text-white shadow-md'
-              : 'bg-white text-gray-600 hover:bg-gray-100'
+              ? 'bg-blue-600 text-white shadow-2xl scale-105 translate-y-1'
+              : 'bg-white text-gray-400 hover:bg-gray-100 hover:text-blue-600'
           }`}
         >
-          <BookOpen className='w-5 h-5' /> Harry Potter
+          <BookOpen className='w-12 h-12' />
+          Harry Potter
         </button>
         <button
           onClick={() => setActiveTab('reddit')}
-          className={`flex items-center gap-2 px-6 py-3 font-semibold rounded-t-lg transition-all ${
+          className={`flex items-center gap-4 px-12 py-8 text-3xl font-bold rounded-t-3xl transition-all duration-300 ${
             activeTab === 'reddit'
-              ? 'bg-orange-600 text-white shadow-md'
-              : 'bg-white text-gray-600 hover:bg-gray-100'
+              ? 'bg-orange-600 text-white shadow-2xl scale-105 translate-y-1'
+              : 'bg-white text-gray-400 hover:bg-gray-100 hover:text-orange-600'
           }`}
         >
-          <AlertCircle className='w-5 h-5' /> Reddit Analysis
+          <AlertCircle className='w-12 h-12' />
+          Reddit Analysis
         </button>
       </div>
 
       {/* Nội dung Tab */}
-      {activeTab === 'harry' ? (
-        <HarryPotterCharts
-          wordData={wordData}
-          interactionData={interactionData}
-          sentimentData={sentimentData}
-        />
-      ) : (
-        <RedditCharts topPosts={redditTopPosts} timeline={redditTimeline} />
-      )}
+      <div className='mt-8'>
+        {activeTab === 'harry' ? (
+          <HarryPotterCharts
+            wordData={wordData}
+            interactionData={interactionData}
+            sentimentData={sentimentData}
+          />
+        ) : (
+          <RedditCharts topPosts={redditTopPosts} timeline={redditTimeline} />
+        )}
+      </div>
     </main>
   );
 }

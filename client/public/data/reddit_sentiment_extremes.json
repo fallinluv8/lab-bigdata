@@ -1,0 +1,88 @@
+{
+  "lab_name": "Lab 4: Reddit Sentiment Extremes",
+  "description": "Nh\u1eefng b\u00ecnh lu\u1eadn mang t\u00ednh t\u00edch c\u1ef1c nh\u1ea5t v\u00e0 ti\u00eau c\u1ef1c nh\u1ea5t",
+  "positive": [
+    {
+      "body": "Best post I ever seen on here.",
+      "sentiment": 1.0
+    },
+    {
+      "body": "This is perfectly worded",
+      "sentiment": 1.0
+    },
+    {
+      "body": "Works for me\nKarma at its best",
+      "sentiment": 1.0
+    },
+    {
+      "body": "Happily, I do have time!",
+      "sentiment": 1.0
+    },
+    {
+      "body": "This is the best thing I've read all day.",
+      "sentiment": 1.0
+    },
+    {
+      "body": "This cant be real lol.",
+      "sentiment": 1.0
+    },
+    {
+      "body": "Terry Pratchett said something like \"your prize for digging the best holes is you get given the biggest shovel\".",
+      "sentiment": 1.0
+    },
+    {
+      "body": "My deepest condolences for finding a job. Not working is the best thing ever.",
+      "sentiment": 1.0
+    },
+    {
+      "body": "That's great! Dog rule and excellent supervisor is ice on the cake",
+      "sentiment": 1.0
+    },
+    {
+      "body": "Get the request/threat in writing . Best way is to ask questions about it in an email , their reply will give you all you need.",
+      "sentiment": 1.0
+    }
+  ],
+  "negative": [
+    {
+      "body": "Oh these guys are so fucked ! You go girl!!",
+      "sentiment": -1.0
+    },
+    {
+      "body": "\"How miserable can you in life\"\n\n\"...tract your IP address\"\n\n&amp;#x200B;\n\nWut?",
+      "sentiment": -1.0
+    },
+    {
+      "body": "and people that exploit the system is why bosses can have the argument that people are faking it. its vicious circle and bosses are not the ones who would benefit the from it stopping. Dumbass.",
+      "sentiment": -1.0
+    },
+    {
+      "body": "Holy crap man it\u2019s been 78 days \ud83d\ude02 U a legend!",
+      "sentiment": -1.0
+    },
+    {
+      "body": "You got me fucked up!!!!!!",
+      "sentiment": -1.0
+    },
+    {
+      "body": "And here, we are presented with a contender for the worst fuckin bot.",
+      "sentiment": -1.0
+    },
+    {
+      "body": "Banquet hall servers/bartenders can also make insane amounts of money",
+      "sentiment": -1.0
+    },
+    {
+      "body": "Damn man\u2026.. that\u2019s terrible",
+      "sentiment": -1.0
+    },
+    {
+      "body": "Why is the spelling and grammar so horrible here?\n\n&gt;Seminole, FL\n\nAh.",
+      "sentiment": -1.0
+    },
+    {
+      "body": "I saw a comment on here once that said something to the effect of: An awful lot of crime is committed to enable the care, feeding and housing of children.",
+      "sentiment": -1.0
+    }
+  ]
+}
